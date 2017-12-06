@@ -6,8 +6,8 @@ import os
 import time
 start_time = time.time()
 
-path = "/Users/sunyitao/Desktop/00"
-outputFile="/Users/sunyitao/Desktop/01"
+path = ""
+outputFile=""
 
 data = [os.path.join(dirpath, f)
         for dirpath, dirnames, files in os.walk(path)
